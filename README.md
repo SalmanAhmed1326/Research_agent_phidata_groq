@@ -48,6 +48,7 @@ This project demonstrates the use of the *Groq model API* to create an advanced 
    - Ensure you have access to the *Groq API*.
    - Configure any required API keys or dependencies.
 
+### *Note*: Please add .env file in your working directory and have api key in it of phidata, groq.
 ---
 
 ### Usage
