@@ -32,17 +32,17 @@ This project demonstrates the use of the *Groq model API* to create an advanced 
 ### Installation
 
 1. *Clone the Repository:*
-   bash
+   ```bash
    git clone <repository-url>
    cd <repository-directory>
-   
+   ```
 
 2. *Install Dependencies:*
    Ensure you have the required Python packages installed:
-   bash
+   ```bash
    pip install phi
    pip install <additional_dependencies_if_any>
-   
+   ```
 
 3. *Environment Setup:*
    - Ensure you have access to the *Groq API*.
@@ -54,15 +54,16 @@ This project demonstrates the use of the *Groq model API* to create an advanced 
 
 1. *Run the Agent:*
    Execute the script to see the agent in action:
-   bash
+   ```bash
    python <script_name>.py
-   
+   ```
 
 2. *Query the Agent:*
    Modify the topic to generate a report on your desired subject:
    python
+   ```bash
    agent.print_response("Simulation theory", stream=True)
-   
+   ```
 
    Example topics:
    - "Impact of climate change on biodiversity"
